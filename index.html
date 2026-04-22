@@ -105,7 +105,7 @@
 
     <section class="card reveal">
       <h2>Что мы уже делаем</h2>
-      <div class="cases">
+      <div class="cases" style="grid-template-columns:repeat(2,minmax(0,1fr));">
         <div class="case">
           <div class="pill">Кейс 01</div>
           <video controls muted playsinline preload="metadata">
@@ -122,13 +122,14 @@
           <h3>Земельный участок</h3>
           <p>Презентация с картой, точной локацией, дорогами, удалённостью, коммуникациями и логикой подачи, которая помогает быстро показать ценность участка.</p>
         </div>
-        <div class="case">
-          <div class="pill">Кейс 03</div>
-          <div class="mini">
-            <h3>Загородный дом</h3>
-            <p>Подготовленный слот под третий кейс, который можно сразу добавить в страницу отдельным роликом с презентацией дома, участка и интерьерного сценария.</p>
-          </div>
-        </div>
+      </div>
+      <div class="case" style="margin-top:18px;">
+        <div class="pill">Дополнительный кейс</div>
+        <video controls muted playsinline preload="metadata">
+          <source src="./media/case-general.mp4" type="video/mp4">
+        </video>
+        <h3>Общее</h3>
+        <p>Дополнительный общий ролик, который можно использовать как универсальную презентацию услуги, вводный кейс или расширенный пример визуальной подачи.</p>
       </div>
     </section>
 
